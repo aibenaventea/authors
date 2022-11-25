@@ -33,7 +33,7 @@ export class EditAuthorsComponent implements OnInit {
     const id = this.authorId.id;
     let observable = this._authorService.updateAuthor(id, this.author);
     observable.subscribe(data => {
-      this._router.navigate([`/`])
+      this._router.navigate([`/authors`])
     });
   }
 }

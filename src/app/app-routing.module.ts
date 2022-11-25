@@ -6,10 +6,10 @@ import { EditAuthorsComponent } from './modules/edit-authors/edit-authors.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  {path: '/authors', component: AuthorsComponent},
-  {path: '/authors/new', component: AddAuthorsComponent},
-  {path: '/authors/edit/:id', component: EditAuthorsComponent},
-  {path: '', pathMatch: 'full', redirectTo: '/authors'},
+  {path: 'authors', component: AuthorsComponent},
+  {path: 'authors/new', component: AddAuthorsComponent},
+  {path: 'authors/edit/:id', component: EditAuthorsComponent},
+  {path: '', pathMatch: 'full', redirectTo: 'authors'},
   {path: '**', component:  PageNotFoundComponent}
 ];
 

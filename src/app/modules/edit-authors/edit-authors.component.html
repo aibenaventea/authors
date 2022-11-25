@@ -1,7 +1,7 @@
 <p>edit-authors works!</p>
 <header class="header-3">
   <h1 class="title-3">Favourite Authors</h1>
-  <a class="ref-3" [routerLink]="['/']">Home</a>
+  <a class="ref-3" [routerLink]="['/authors/']">Home</a>
   <h2 class="subtitle-3">Edit this author</h2>
 </header>
 <main class="main-container3">
@@ -11,7 +11,7 @@
       <input class="data-txt" type="text" name="authorName" [(ngModel)]="author.authorName" value="{{author.authorName}}">
     </div>
     <div class="container-btns">
-      <button class="btn31" [routerLink]="['/', author._id]">Cancel</button>
+      <button class="btn31" [routerLink]="['/authors/', author._id]">Cancel</button>
       <button class="btn32" type="submit">Submit</button>
     </div>
   </form>

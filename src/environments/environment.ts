@@ -4,7 +4,12 @@
 
 export const environment = {
   production: false,
-  apiAdress: 'http://localhost:8000/authors'
+  // apiAdress: 'http://localhost:8000/authors',
+  urlServiceGetAll: 'http://localhost:8000/getAll',
+  urlServiceGetById: 'http://localhost:8000/getById',
+  urlServiceCreateNew: 'http://localhost:8000/createNew',
+  urlServiceUpdate: 'http://localhost:8000/update',
+  urlServiceDelete: 'http://localhost:8000/delete'
 };
 
 /*

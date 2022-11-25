@@ -60,6 +60,7 @@
   font-size: 2.5em;
   border: none;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .btn32{
@@ -72,4 +73,5 @@
   font-size: 2.5em;
   border: none;
   font-weight: bolder;
+  cursor: pointer;
 }

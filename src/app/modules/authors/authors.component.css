@@ -74,6 +74,7 @@ table {
   border-radius: 10px;
   background-image: linear-gradient(rgb(167, 198, 224), rgb(56, 59, 85));
   color: whitesmoke;
+  cursor: pointer;
 }
 
 .btn2{
@@ -84,6 +85,7 @@ table {
   border-radius: 10px;
   color: whitesmoke;
   background-image: linear-gradient(rgb(230, 214, 160), rgb(75, 83, 115));
+  cursor: pointer;
 }
 
 

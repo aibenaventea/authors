@@ -2,7 +2,7 @@
 
 <header class="header-1">
     <h1 class="title-1">Favourite authors</h1>
-    <a class="ref-1" [routerLink]="['/new']">Add an author</a>
+    <a class="ref-1" [routerLink]="['/authors/new']">Add an author</a>
     <h2 class="subtitle-1">List of authors</h2>
 </header>
 <main class="main-container">
@@ -15,8 +15,8 @@
       <td>{{author.authorName}}</td>
       <td>
         <div class="column-btns">
-          <button class="btn1" [routerLink]="['/edit/', author._id]">Edit</button>
-          <button class="btn2" (click)="callDeleteAuthor(authorId.id)">Delete</button>
+          <button class="btn1" [routerLink]="['/authors/edit/', author._id]">Edit</button>
+          <button class="btn2" (click)="callDeleteAuthor(author._id)">Delete</button>
         </div>
       </td>
     </tr>
